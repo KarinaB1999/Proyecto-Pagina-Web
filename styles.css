@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Lato", sans-serif;
+}
+
+.logo h1 {
+  font-size: 2rem;
+  color: black;
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+.lista-menu li {
+  display: inline;
+  margin: 30px;
+}
+
+header {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20rem;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin-top: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+}
+
+a:hover {
+  color: teal;
+  transition: 0.2s ease-in-out;
+}
+
+.logo2 h1 {
+  font-size: 1rem;
+  color: black;
+  margin-top: 26px;
+  margin-left: 15px;
+}
+.icono-search i {
+  margin-top: 23px;
+  margin-right: 10px;
+  padding-top: 5px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: white;
+  background-color: orange;
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+.contenido-header {
+  background-image: url("https://media.istockphoto.com/vectors/silhouette-of-dark-city-buildings-night-landscape-with-skyscrapers-vector-id1027165278?k=20&m=1027165278&s=170667a&w=0&h=WYOP_j0zWc17i8Vs43Q_h-4ER45jSfP0KS66PFYdwQg=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 37rem;
+}
+
+.contenido-header h2 {
+  text-align: center;
+  color: beige;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10rem;
+}
+
+.contenido-header p {
+  text-align: center;
+  margin-left: 24.4rem;
+  margin-right: 25.3rem;
+  color: beige;
+  margin-top: 15px;
+  font-size: 8px;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  display: block;
+  margin-left: 43rem;
+  margin-top: 20px;
+  width: 15rem;
+  height: 30px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.contenedor-servicios {
+  display: flex;
+  padding-right: 20rem;
+  padding-left: 20rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.foto-servicio {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.servicios h3 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.servicios h4 {
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.datos-servicio {
+  text-align: center;
+  font-size: 9px;
+  margin-top: 5px;
+}
+
+.link-read {
+  text-decoration: none;
+  color: teal;
+}
+
+.portafolio {
+  background-color: #364759;
+  height: 37rem;
+}
+
+.portafolio h3 {
+  color: #ec9a62;
+  padding-top: 6rem;
+  font-size: 20px;
+  padding-left: 15rem;
+  padding-bottom: 5rem;
+}
+.contenedor-portafolio {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.foto-portafolio {
+  height: 15rem;
+  width: 20rem;
+  display: block;
+  border-image: 2px white;
+}
+.titulo-portafolio {
+  color: #ec9a62;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.datos-portaf {
+  color: white;
+  width: 90%;
+}
+
+.btn-portafolio {
+  float: right;
+  margin-top: 7rem;
+  margin-right: 18.5rem;
+  background-color: #4c9acf;
+  border: none;
+  width: 50px;
+  height: 15px;
+  color: white;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+.contenido-wwo1 h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #4c9acf;
+  margin-top: 4rem;
+}
+
+.contenido-wwo1 p {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 2rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.contenedor-wwo2 {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 60px;
+}
+
+.tarjeta-wwo {
+  margin-left: 25px;
+}
+.titulo-wwo {
+  color: #4c9acf;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.datos-wwo {
+  font-size: 8px;
+  text-align: justify;
+  line-height: 12px;
+}
+
+.btn-wwo {
+  background-color: #4c9acf;
+  border: none;
+  float: right;
+  width: 35px;
+  height: 15px;
+  color: white;
+  font-size: 8px;
+}
+
+.testimonials {
+  border-top: black thin solid;
+}
+.testimonials h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #4c9acf;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.testimonials p {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 15rem;
+  margin-left: 15rem;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #e0a502;
+  font-size: 9px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contenedor-fotos-testimonials {
+  display: flex;
+  margin-left: 44.6rem;
+  margin-bottom: 30px;
+}
+.foto-testimonials {
+  width: 39px;
+  height: 36px;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: #364759;
+  height: 30rem;
+  display: flex;
+}
+
+.contenedor1footer {
+  margin-left: 20rem;
+  margin-right: 20px;
+  padding-top: 4rem;
+}
+.contenedor1footer h2 {
+  color: #ef9066;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.contenedor1footer p {
+  color: white;
+  font-size: 8px;
+  margin-bottom: 2px;
+}
+
+.contenedor1footer a {
+  color: #49728f;
+  font-size: 8px;
+}
+.contenedor1footer h1 {
+  color: white;
+  margin-top: 5px;
+  font-size: 8px;
+  margin-bottom: 10px;
+}
+
+.contenedor2footer {
+  margin-left: 3rem;
+  padding-top: 4rem;
+  width: 20%;
+}
+
+.contenedor2footer h2 {
+  color: #ef9066;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.contenedor2footer p {
+  color: white;
+  font-size: 8px;
+  margin-bottom: 2px;
+  line-height: 15px;
+}
+.contenedor2footer h1 {
+  color: #49728f;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.contenedor2footer input {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.btn-footer {
+  background-color: #4c9acf;
+  border: none;
+  float: right;
+  width: 50px;
+  height: 20px;
+  color: white;
+  font-size: 8px;
+  border-radius: 2px;
+}
+
+.img-blanco {
+  width: 40px;
+  position: absolute;
+}
+
+.tarjeta-foot {
+  margin-bottom: 25px;
+}
+
+.datos-footer {
+  margin-left: 5rem;
+}
+.contenedor3footer h2 {
+  color: #ef9066;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.contenedor3footer {
+  margin-left: 3rem;
+  padding-top: 4rem;
+  width: 30%;
+}
+
+.datos-footer p {
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 8px;
+}
+
+.datos-footer a {
+  margin-top: 5px;
+  color: #49728f;
+}
+
+.datos-footer h1 {
+  margin-top: 5px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.contenedor4footer h2 {
+  color: #ef9066;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.contenedor4footer {
+  margin-right: 15rem;
+  padding-top: 4rem;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.contenedor4footer i {
+  color: #4c9acf;
+  font-size: 30px;
+  position: absolute;
+}
+
+.contenedor4footer p {
+  margin-left: 5rem;
+  color: white;
+  font-size: 10px;
+}
+
+.primer-icono {
+  margin-bottom: 30px;
+}
